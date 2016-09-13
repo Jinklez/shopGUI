@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=newPass
+comment0.target=void\ setPass(java.lang.String)
+comment1.params=newName
+comment1.target=void\ setUser(java.lang.String)
+comment2.params=pass
+comment2.target=boolean\ checkPass(java.lang.String)
+comment3.params=user
+comment3.target=boolean\ checkUser(java.lang.String)
+numComments=4

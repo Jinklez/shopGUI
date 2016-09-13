@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DummyModel()
+comment1.params=
+comment1.target=java.util.List\ getClothing()
+comment2.params=username\ password
+comment2.target=boolean\ login(java.lang.String,\ java.lang.String)
+comment3.params=username\ password
+comment3.target=boolean\ signup(java.lang.String,\ java.lang.String)
+comment4.params=username
+comment4.target=Customer\ getUserInfo(java.lang.String)
+comment5.params=username\ info
+comment5.target=boolean\ setUserInfo(java.lang.String,\ Customer)
+comment6.params=cart
+comment6.target=float\ getPrice(Cart)
+comment7.params=currentUserID\ cart
+comment7.target=boolean\ processOrder(java.lang.String,\ Cart)
+numComments=8
