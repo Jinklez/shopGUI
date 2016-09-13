@@ -4,7 +4,7 @@ import java.util.List;
 
 public class DummyModel implements Model {
 
-	ArrayList<Clothing> productList = new ArrayList<Clothing>();
+	ArrayList<Product> productList = new ArrayList<Product>();
 	HashMap<String, String> passwords = new HashMap<>();
 	HashMap<String, Customer> details = new HashMap<>();
 	
@@ -14,13 +14,13 @@ public class DummyModel implements Model {
 		details.put("admin", new Customer("john", "900 dandenong rd", "123", "456"));
 
 		for(int i = 0; i < 3; i++){
-			Clothing birb = new Clothing("Item #"+i);
+			Product birb = new Product("Item #"+i);
 			birb.setProperty("price", "Price ($)", 100f);
 			productList.add(birb);
 		}
 	}
 	
-	public List<Clothing> getClothing() {
+	public List<Product> getProducts() {
 		return productList;
 	}
 

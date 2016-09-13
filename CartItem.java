@@ -13,7 +13,7 @@ public class CartItem {
 	 * The product that is represented by this CartItem
 	 * </pre>
 	 */
-	public Clothing product;
+	public Product product;
 	
 	/**
 	 * <pre>
@@ -22,7 +22,7 @@ public class CartItem {
 	 */
 	public float quantity;
 
-	public CartItem(Clothing product, float quantity) {
+	public CartItem(Product product, float quantity) {
 		this.product = product;
 		this.quantity = quantity;
 	}

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.util.List\ getProducts()
+comment0.text=\r\n\ <pre>\r\n\ This\ method\ returns\ the\ list\ of\ all\ products\ in\ the\ store.\r\n\ The\ products\ in\ this\ list\ are\ used\ to\ drive\ all\ other\ product\ related\ actions\ in\ the\ store\ so\ they\ only\ need\ to\ be\ defined\ here.\r\n\ \r\n\ The\ products\ may\ be\ loaded\ from\ a\ server,\ a\ web-site,\ or\ any\ other\ source,\ as\ long\ as\ they\ are\ returned\ from\ this\ method\ in\ a\ list.\r\n\ </pre>\r\n\ @return\ The\ list\ of\ products\ in\ the\ store.\r\n
+comment1.params=username\ password
+comment1.target=boolean\ login(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ <pre>\r\n\ This\ method\ determines\ if\ a\ login\ was\ successful\ or\ not.\r\n\ \r\n\ The\ criteria\ for\ a\ successful\ login\ is\ usually\:\r\n\ -\ The\ user\ ID\ is\ valid\ and\ the\ user\ exists\r\n\ -\ The\ password\ is\ a\ valid\ password\r\n\ -\ The\ supplied\ password\ matches\ with\ the\ user's\ stored\ password\r\n\ \r\n\ (\ A\ system\ like\ this\ is\ very\ insecure\ and\ should\ NEVER\ be\ used\ in\ the\ real\ world,\ this\ is\ purely\ for\ learning\ purposes.\ )\r\n\ </pre>\r\n\ @param\ username\ The\ user\ ID\ of\ the\ user\ attempting\ to\ login\r\n\ @param\ password\ The\ supplied\ password\ to\ be\ tested\r\n\ @return\ This\ method\ returns\ true\ if\ the\ login\ was\ successful,\ or\ false\ if\ it\ was\ not\r\n
+comment2.params=username\ password
+comment2.target=boolean\ signup(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ <pre>\r\n\ This\ method\ takes\ a\ user\ ID\ and\ a\ password\ and\ attempts\ to\ create\ an\ account\ for\ the\ user.\r\n\ \r\n\ The\ account\ creation\ should\ be\ unsuccessful\ if\ any\ of\ the\ following\ are\ true\:\r\n\ -\ A\ user\ with\ the\ requested\ user\ ID\ already\ exists.\r\n\ -\ The\ user\ ID\ is\ too\ short.\r\n\ -\ The\ password\ is\ too\ short.\r\n\ -\ The\ password\ is\ too\ insecure\ (insufficient\ length,\ no\ special\ characters)\ OPTIONAL\r\n\ \r\n\ If\ the\ account\ creation\ is\ successful,\ the\ following\ should\ take\ place\:\r\n\ -\ The\ user's\ ID\ and\ password\ is\ stored.\r\n\ -\ A\ new\ Customer\ object\ is\ created\ and\ stored\ along\ with\ the\ user\ details.\r\n\ \r\n\ (\ A\ system\ like\ this\ is\ very\ insecure\ and\ should\ NEVER\ be\ used\ in\ the\ real\ world,\ this\ is\ purely\ for\ learning\ purposes.\ )\r\n\ </pre>\r\n\ @param\ username\ The\ user\ ID\ that\ the\ user\ would\ like\ to\ use\r\n\ @param\ password\ The\ password\ that\ the\ user\ would\ like\ to\ use\r\n\ @return\ This\ method\ returns\ true\ if\ the\ user\ account\ was\ successfully\ created,\ and\ false\ otherwise.\r\n
+comment3.params=username
+comment3.target=Customer\ getUserInfo(java.lang.String)
+comment3.text=\r\n\ <pre>\r\n\ Get\ a\ user's\ information.\r\n\ </pre>\r\n\ @param\ username\ The\ id\ of\ the\ user.\r\n\ @return\ A\ Customer\ object\ with\ the\ user's\ information.\r\n
+comment4.params=username\ info
+comment4.target=boolean\ setUserInfo(java.lang.String,\ Customer)
+comment4.text=\r\n\ <pre>\r\n\ Updates\ the\ users\ information\ in\ the\ back-end.\r\n\ \r\n\ This\ operation\ may\ fail\ due\ to\ server\ error\ or\ other\ network\ issues.\r\n\ If\ this\ happens\ return\ false,\ otherwise\ always\ return\ true.\r\n\ </pre>\r\n\ @param\ username\ The\ user\ ID\ of\ the\ user.\r\n\ @param\ info\ The\ information\ to\ set.\r\n\ @return\ Returns\ true\ if\ the\ operation\ succeeded,\ false\ otherwise.\r\n
+numComments=5

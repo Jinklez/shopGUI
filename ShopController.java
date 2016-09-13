@@ -198,7 +198,7 @@ public class ShopController {
 	public void attemptLogin(String username, String password){
 		if(backend.login(username, password)){
 			currentUserID = username;
-			showClothingList();
+			showProductList();
 		} else {
 			showPopup("Login failed! Please ensure that your user ID and password are correct.");
 		}
@@ -252,7 +252,7 @@ public class ShopController {
 	 * @param p The product
 	 * @param quantity The quantity to add
 	 */
-	public void addToCart(Clothing p, float quantity){
+	public void addToCart(Product p, float quantity){
 		cart.add(p, quantity);
 	}
 	
@@ -280,8 +280,8 @@ public class ShopController {
 	 * Shows the product list view.
 	 * </pre>
 	 */
-	public void showClothingList() {
-		setView(new ClothingListView());
+	public void showProductList() {
+		setView(new ProductListView());
 	}
 
 	/**

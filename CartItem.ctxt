@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.params=product\ quantity
-comment0.target=CartItem(Clothing,\ float)
+comment0.target=CartItem(Product,\ float)
 comment1.params=
 comment1.target=void\ add()
 comment1.text=\r\n\ <pre>\r\n\ Adds\ 1\ to\ the\ current\ quantity.\r\n\ </pre>\r\n

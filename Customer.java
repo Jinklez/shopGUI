@@ -4,7 +4,7 @@
  * Whilst this information is not sufficient to place an order in real life, it is detailed enough to serve as a good learning example.
  * </pre>
  */
-public class Customer extends Account {
+public class Customer {
 
 	/**
 	 * <pre>

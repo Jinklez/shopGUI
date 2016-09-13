@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.params=p\ quantity
-comment0.target=void\ add(Clothing,\ float)
+comment0.target=void\ add(Product,\ float)
 comment0.text=\r\n\ <pre>\r\n\ Adds\ a\ certain\ quantity\ of\ a\ certain\ product\ to\ the\ cart.\r\n\ </pre>\r\n\ @param\ p\ The\ product\ to\ add\r\n\ @param\ quantity\ The\ quantity\ of\ the\ product\ to\ add\r\n
 comment1.params=item
 comment1.target=void\ add(CartItem)
-comment1.text=\r\n\ <pre>\r\n\ Adds\ a\ pre-formatted\ CartItem\ to\ the\ cart.\r\n\ Preferably\ use\ add(Clothing,\ float)\ as\ that\ method\ performs\ checks\ to\ prevent\ duplicate\ items.\r\n\ </pre>\r\n\ @param\ item\ The\ CartItem\ to\ add\r\n
+comment1.text=\r\n\ <pre>\r\n\ Adds\ a\ pre-formatted\ CartItem\ to\ the\ cart.\r\n\ Preferably\ use\ add(Product,\ float)\ as\ that\ method\ performs\ checks\ to\ prevent\ duplicate\ items.\r\n\ </pre>\r\n\ @param\ item\ The\ CartItem\ to\ add\r\n
 comment2.params=
 comment2.target=java.util.List\ getList()
 comment2.text=\r\n\ <pre>\r\n\ Returns\ a\ list\ of\ all\ CartItems.\r\n\ </pre>\r\n\ @return\ The\ list\ of\ CartItems\r\n

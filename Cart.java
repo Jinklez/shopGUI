@@ -17,7 +17,7 @@ public class Cart {
 	 * @param p The product to add
 	 * @param quantity The quantity of the product to add
 	 */
-	public void add(Clothing p, float quantity){
+	public void add(Product p, float quantity){
 		for(CartItem ci : items){
 			if(ci.product.equals(p)){
 				ci.quantity += quantity;
@@ -30,7 +30,7 @@ public class Cart {
 	/**
 	 * <pre>
 	 * Adds a pre-formatted CartItem to the cart.
-	 * Preferably use add(Clothing, float) as that method performs checks to prevent duplicate items.
+	 * Preferably use add(Product, float) as that method performs checks to prevent duplicate items.
 	 * </pre>
 	 * @param item The CartItem to add
 	 */

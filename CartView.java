@@ -34,7 +34,7 @@ public class CartView extends View {
 		JButton btnBack = new JButton("Back to products");
 		btnBack.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				getController().showClothingList();
+				getController().showProductList();
 			}
 		});
 		panel.setLayout(new BoxLayout(panel, BoxLayout.X_AXIS));
